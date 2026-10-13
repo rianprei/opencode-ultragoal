@@ -114,7 +114,7 @@ curl -fsSL https://raw.githubusercontent.com/rianprei/opencode-ultragoal/main/in
 /ultragoal clear                              # stop and report
 ```
 
-## goalmax integration (opencode only)
+## goalmax engine integration (opencode + Claude Code)
 
 If the `goalmax` engine plugin is loaded (tools `goalmax_*`), ultragoal registers the contract via `goalmax_set`, verifies via `goalmax_verify` (allowlist-enforced, no shell), completes via `goalmax_complete` (which **refuses exit code ≠ 0**), pauses via `goalmax_pause`, and the engine auto-continues between turns.
 
