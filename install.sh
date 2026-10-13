@@ -54,4 +54,4 @@ else
 fi
 
 echo ""
-echo "  Done. Use: /ultragoal <objective>"
+echo "  Done. Use: /ultragoal <condition>"

@@ -29,6 +29,16 @@
 - BLOCKED state has defined exit: `update <novo>` (new incarnation) or `clear`
 - Table row for "item 2 exit 0 but item 3 red" → continues, persiste 2 turnos → PAUSED
 
+## v1.1 (2026-10-13)
+
+### Added
+- Constraints checked every turn alongside verification (item 3 in the loop)
+- `.ultragoal/state.md` state file with terminal markers
+- `goalmax_pause`/`goalmax_resume` mapped for every PAUSED state
+- `budget` verb for re-mounting contract line 5
+- Guard for "goal already active" on new invocation
+- Network consent: first use of each category requires written OK
+
 ## v1.0 (2026-10-12)
 
 - Initial release
