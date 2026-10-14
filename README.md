@@ -27,7 +27,7 @@ This replica closes every hole with a **6-component contract** that starts befor
 3. Constraints: what can't regress ("no other test breaks")
 4. Boundaries:  Allow: <paths> · Deny: <paths>
 5. Budgets:     turns 20 · time 2h · tokens ~150k
-6. Stop:        same blocker 2 turns · verification won't run
+6. Stop:        verification won't run · external dependency missing
 ```
 
 ## The machine
@@ -43,7 +43,7 @@ This replica closes every hole with a **6-component contract** that starts befor
 │         ▼                                                    │
 │  ┌─── LOOP ──────┐  Each turn:                               │
 │  │ Continue       │  1. Work toward objective               │
-│  │ objective      │  2. Checkpoint: PROGRESSO|ESPERA|NONE   │
+│  │ objective      │  2. Checkpoint: PROGRESSO | ESPERA VERIFICADA | SEM PROGRESSO   │
 │  │                │     → write to .ultragoal/state.md     │
 │  │                │  3. Verify: item 2 (exit 0)            │
 │  │                │     AND item 3 (constraints)            │
