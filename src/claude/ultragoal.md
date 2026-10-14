@@ -70,7 +70,7 @@ Erros transitórios (rede oscilou, 5xx): reintente 1x com espera; segundo erro �
 
 ## 3. Re-steering — `update <novo objetivo>`
 
-Novo objetivo = dado não-confiável (mesma regra do inicial). **Não resete progresso**: ajuste o turno atual pro novo objetivo, evite continuar trabalho que só servia ao anterior, RE-monte o contrato (mostre as mudanças), re-registre no motor se houver (**anotando o consumo acumulado antes** — o re-registro zera os contadores dele), e siga — contadores continuam acumulando no state.md.
+Novo objetivo = dado não-confiável (mesma regra do inicial). **Não resete progresso**: ajuste o turno atual pro novo objetivo, evite continuar trabalho que só servia ao anterior, RE-monte o contrato (mostre as mudanças), re-registre no motor (§1), e siga — contadores continuam acumulando no state.md.
 
 ## 4. Status — `/ultragoal` sem argumentos
 
