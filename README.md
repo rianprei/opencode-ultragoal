@@ -139,6 +139,13 @@ This survives restart and context compaction. Without it, the breakers lose thei
 - **Grok Build**: status/pause/resume/clear verbs, visible progress checklist
 - **goalmax v2**: 6-component contract, exit-code-0 verification, boundaries allow/deny, independent auditor
 
+## Verify integrity
+
+After downloading, verify the files match the published checksums:
+
+```bash
+sha256sum -c CHECKSUMS.sha256
+```
 ## License
 
 MIT — see [LICENSE](LICENSE)

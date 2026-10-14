@@ -1,6 +1,6 @@
 ---
 name: ultragoal
-description: "ultragoal v1.2 — Use when the user asks to keep working autonomously toward a verifiable objective until done — "ultragoal", "goal", "trabalha até terminar", "roda até X passar" — or wants a goal loop with a hard contract (measurable outcome, command verification exit 0 + constraints checked, budgets, boundaries), pause-with-reason states, and re-steering without reset. Local, network only with consent, unlimited, network only with consent.
+description: 'ultragoal v1.2 — Use when the user asks for a deep code review, deep planning, or autonomous goal loop — any mention of "ultragoal" triggers this skill. Local, network only with consent, no git required, unlimited.'
 ---
 
 # MODO ULTRAGOAL
