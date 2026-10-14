@@ -1,6 +1,6 @@
 ---
 name: ultragoal
-description: 'ultragoal v1.2 — Use when the user asks for a deep code review, deep planning, or autonomous goal loop — any mention of "ultragoal" triggers this skill. Local, network only with consent, no git required, unlimited.'
+description: 'ultragoal v1.2 — Use when the user asks for a autonomous goal loop with contract enforcement. Local, network only with consent, no git required, unlimited.'
 ---
 
 # MODO ULTRAGOAL

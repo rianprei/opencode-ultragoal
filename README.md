@@ -103,6 +103,7 @@ curl -fsSL https://raw.githubusercontent.com/rianprei/opencode-ultragoal/main/in
 | **Claude Code** | `src/claude/ultragoal.md` | `~/.claude/commands/ultragoal.md` |
 | **Codex** | `src/codex/SKILL.md` | `~/.codex/skills/ultragoal/SKILL.md` |
 | **Grok Build** | `src/grok/SKILL.md` | `~/.grok/skills/ultragoal/SKILL.md` |
+| **opencode agents** | `agents/autopilot.md` | `~/.config/opencode/agents/autopilot.md` |
 
 ## Usage
 

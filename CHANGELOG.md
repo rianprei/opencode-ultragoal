@@ -23,7 +23,6 @@
 ### Added
 - Constraints checked every turn alongside verification
 - `.ultragoal/state.md` with terminal markers
-- `goalmax_pause`/`goalmax_resume` mapped for every PAUSED state
 - `budget` verb for re-mounting contract line 5
 - Guard for "goal already active" on new invocation
 - Network consent: first use of each category requires written OK
